@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rizwan Shaikh - Computer Science Engineering student, software developer and cloud computing enthusiast.">
+  <title>Rizwan Shaikh | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+ :root{--bg:#f6f1e8;--panel:#fffdf9;--panel2:#fffdf9;--text:#292720;--muted:#777267;--blue:#9a7652;--line:rgba(83,70,52,.16);--font:'DM Sans',sans-serif;--display:'Space Grotesk',sans-serif}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:90px}body{background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.7;overflow-x:hidden}a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 48px));margin:auto}.ambient{position:absolute;width:420px;height:420px;border-radius:50%;filter:blur(120px);opacity:.10;pointer-events:none}.ambient-one{background:#b99c7a;top:100px;left:-240px}.ambient-two{background:#d6c5ad;top:900px;right:-300px}.site-header{position:fixed;z-index:20;top:0;width:100%;background:rgba(246,241,232,.88);backdrop-filter:blur(18px);border-bottom:1px solid transparent;transition:.3s}.site-header.scrolled{border-color:var(--line)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font:700 20px var(--display);letter-spacing:-1px}.brand-mark{display:grid;place-items:center;width:30px;height:30px;background:var(--blue);color:#fffdf9;border-radius:9px;font-size:16px}.brand-dot{color:var(--blue)}.nav-links{display:flex;align-items:center;gap:32px;list-style:none}.nav-link{font-size:12px;color:var(--muted);transition:.2s}.nav-link:hover,.nav-link.active{color:var(--text)}.nav-contact{border:1px solid var(--line);padding:10px 15px;border-radius:6px;color:var(--text)}.nav-contact span{color:var(--blue);margin-left:8px}.menu-toggle{display:none;background:none;border:0}.hero{min-height:760px;padding:170px 0 110px;display:flex;align-items:center;position:relative}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:70px}.eyebrow,.section-kicker,.project-topline,.strip-label{font-size:10px;letter-spacing:2px;font-weight:700;color:var(--muted)}.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:28px}.status-dot{width:7px;height:7px;background:#54866a;border-radius:50%;box-shadow:0 0 12px rgba(67,145,103,.35)}.hero-intro{color:var(--muted);font-size:18px}.hero h1{font:700 clamp(64px,8vw,104px)/.98 var(--display);letter-spacing:-7px;margin:8px 0 20px}.hero h1 span,.section-heading h2 span{color:var(--blue)}.hero h2{font:500 18px var(--display);color:#39352e}.divider-slash{color:var(--blue);padding:0 7px}.hero-description{max-width:510px;color:var(--muted);font-size:15px;margin:20px 0 30px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.button{padding:13px 19px;border-radius:6px;font-size:12px;font-weight:700;transition:.25s}.button-primary{background:var(--blue);color:#fffdf9}.button-primary:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(154,118,82,.18)}.button-primary span{margin-left:18px}.button-ghost{border:1px solid var(--line)}.button-ghost:hover{border-color:var(--blue)}.hero-socials{display:flex;gap:24px;margin-top:34px}.hero-socials a{font-size:11px;color:var(--muted)}.hero-socials span{color:var(--blue)}.hero-visual{position:relative;display:grid;place-items:center;min-height:450px}.profile-card{position:relative;z-index:2;width:min(340px,100%);padding:22px;background:linear-gradient(145deg,#fffefa,#eee6d9);border:1px solid rgba(110,87,59,.18);border-radius:13px;box-shadow:0 24px 60px rgba(67,52,33,.12)}.card-top,.card-bottom{display:flex;justify-content:space-between;font-size:8px;letter-spacing:1.4px;color:#8b8173}.card-live{color:#54866a}.avatar{width:104px;height:104px;margin:34px auto 16px;display:grid;place-items:center;position:relative;border-radius:50%;border:1px solid #5b9ffb;background:radial-gradient(circle at 30% 25%,#e7d8c4,#cbb79c 70%);font:600 34px var(--display);color:#554635}.avatar-corner{position:absolute;right:-8px;top:4px;color:var(--blue);font-size:22px}.profile-name{text-align:center;font:600 23px var(--display)}.profile-role{text-align:center;font-size:11px;color:var(--muted);margin-top:4px}.profile-line{height:1px;background:var(--line);margin:24px 0 17px}.profile-meta{display:flex;justify-content:space-between;padding:8px 0;font-size:10px}.profile-meta span{color:#8b8173;letter-spacing:1px}.profile-meta strong{font-weight:500;color:#39352e}.card-bottom{border-top:1px solid var(--line);padding-top:16px;margin-top:17px}.orbit{position:absolute;border:1px solid rgba(154,118,82,.15);border-radius:50%;width:420px;height:420px}.orbit-two{width:500px;height:500px;border-style:dashed;opacity:.5}.floating-chip{position:absolute;z-index:3;padding:10px 14px;background:#fffdf9;border:1px solid var(--line);border-radius:7px;font-size:10px;color:#39352e;box-shadow:0 10px 30px rgba(67,52,33,.10)}.floating-chip span{color:var(--blue);margin-right:6px}.chip-code{top:80px;left:-15px}.chip-cloud{bottom:72px;right:-40px}.scroll-cue{position:absolute;bottom:35px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:12px;font-size:8px;letter-spacing:2px;color:#8b8173}.scroll-cue span{height:30px;width:1px;background:var(--blue)}.section{padding:115px 0;position:relative}.section-heading{margin-bottom:55px}.section-kicker{color:var(--blue);margin-bottom:16px}.section-heading h2{font:600 clamp(38px,5vw,58px)/1.08 var(--display);letter-spacing:-2.5px}.about-section{background:#eee7dc;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px}.large-copy{font:500 25px/1.55 var(--display);color:#39352e}.large-copy strong{color:var(--text)}.about-detail p{color:var(--muted);font-size:14px;margin-bottom:18px}.about-facts{display:flex;gap:35px;margin-top:35px}.about-facts div{display:flex;flex-direction:column}.about-facts strong{font:600 28px var(--display);color:var(--blue)}.about-facts span{font-size:10px;color:var(--muted)}.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.skill-card{position:relative;padding:25px 21px 23px;background:var(--panel2);border:1px solid var(--line);border-radius:9px;min-height:265px;transition:.25s}.skill-card:hover{transform:translateY(-5px);border-color:#b99c7a}.skill-icon{font-size:23px;color:var(--blue)}.skill-number{position:absolute;right:20px;top:22px;color:#9a8c79;font-size:10px}.skill-card h3{font:600 19px var(--display);margin:23px 0 9px}.skill-card p:not(.skill-number){font-size:12px;color:var(--muted);min-height:60px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:17px}.tags span{font-size:9px;color:#665b4d;border:1px solid rgba(83,70,52,.18);padding:4px 8px;border-radius:4px}.skills-note,.projects-note{font-size:10px;color:#8b8173;margin-top:20px}.projects-section{background:#eee7dc;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.projects-list{border-top:1px solid var(--line)}.project-card{display:grid;grid-template-columns:65px 1fr 35px;gap:20px;padding:29px 12px;border-bottom:1px solid var(--line);transition:.25s}.project-card:hover{background:#f5eee4;padding-left:22px;padding-right:22px}.project-index{font:500 12px var(--display);color:var(--blue);padding-top:4px}.project-topline{display:flex;gap:18px;align-items:center;font-size:8px}.project-status{color:#54866a}.project-status.in-progress{color:#a8793f}.project-main h3{font:600 25px var(--display);margin:8px 0}.project-main>p{font-size:13px;color:var(--muted);max-width:700px}.project-main .tags{margin-top:12px}.project-arrow{font-size:22px;color:var(--blue);align-self:center}.education-card{display:grid;grid-template-columns:180px 1fr 35px;align-items:center;padding:30px;background:var(--panel2);border:1px solid var(--line);border-radius:9px}.edu-year{font:600 13px var(--display);color:var(--blue)}.edu-year span{display:block;font:700 8px var(--font);letter-spacing:1.5px;color:#81786b;margin-top:8px}.edu-content h3{font:600 22px var(--display)}.edu-field{color:#51483d;font-size:13px;margin:3px 0}.edu-content p:last-child{font-size:11px;color:var(--muted)}.edu-symbol{font-size:22px;color:var(--blue)}.learning-strip{margin-top:30px;padding-top:22px;border-top:1px solid var(--line);display:flex;gap:35px;align-items:flex-start}.strip-label{min-width:190px;color:#8294ad;font-size:8px}.learning-strip>div{display:flex;gap:9px;flex-wrap:wrap}.learning-strip>div span{font-size:10px;color:#665b4d;background:#eee7dc;padding:7px 11px;border-radius:4px}.contact-section{background:linear-gradient(120deg,#f4eee4,#fffdf9)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px}.contact-copy>p{max-width:420px;color:var(--muted);font-size:14px;margin-bottom:25px}.email-link{font:600 19px var(--display);color:var(--blue);border-bottom:1px solid #4d83c7;padding-bottom:7px}.email-link span{margin-left:15px}.email-hint{font-size:10px!important;color:#9a7652!important;margin-top:14px}.contact-links{border-top:1px solid var(--line)}.contact-links a{display:grid;grid-template-columns:100px 1fr 25px;align-items:center;padding:22px 5px;border-bottom:1px solid var(--line)}.contact-links a span{font-size:8px;letter-spacing:1.5px;color:var(--muted)}.contact-links a strong{font:500 17px var(--display)}.contact-links a b{color:var(--blue)}.footer{border-top:1px solid var(--line);padding:25px 0;background:#e9e1d5}.footer-inner{display:flex;align-items:center;justify-content:space-between}.footer .brand{font-size:16px}.footer .brand-mark{width:25px;height:25px}.footer p,.footer>div>span{font-size:9px;color:#81786b}.back-top{position:fixed;right:24px;bottom:24px;width:40px;height:40px;border:1px solid var(--line);border-radius:7px;background:#fffdf9;color:var(--blue);font-size:20px;cursor:pointer;opacity:0;pointer-events:none;transition:.2s}.back-top.visible{opacity:1;pointer-events:auto}.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}@media(max-width:900px){.hero-grid{gap:35px}.skills-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid{gap:45px}.hero h1{letter-spacing:-5px}.orbit{width:350px;height:350px}.orbit-two{width:420px;height:420px}}@media(max-width:700px){.container{width:min(100% - 36px,540px)}.nav{height:68px}.menu-toggle{display:flex;flex-direction:column;gap:5px;padding:8px}.menu-toggle span{width:22px;height:2px;background:#dce6f3}.nav-links{display:none;position:absolute;top:68px;left:0;width:100%;padding:22px;background:#fffdf9;border-bottom:1px solid var(--line);flex-direction:column;gap:20px}.nav-links.open{display:flex}.hero{padding:125px 0 90px;min-height:auto}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:72px}.hero-visual{min-height:440px;margin-top:5px}.profile-card{width:300px}.orbit{width:330px;height:330px}.orbit-two{width:390px;height:390px}.chip-code{left:0}.chip-cloud{right:0}.scroll-cue{display:none}.section{padding:82px 0}.section-heading{margin-bottom:38px}.about-grid,.contact-grid{grid-template-columns:1fr;gap:30px}.large-copy{font-size:21px}.about-facts{gap:25px}.skills-grid{gap:10px}.skill-card{padding:20px 16px;min-height:280px}.project-card{grid-template-columns:32px 1fr 20px;gap:10px;padding:24px 2px}.project-main h3{font-size:22px}.project-topline{flex-wrap:wrap;gap:8px}.education-card{grid-template-columns:1fr 25px;gap:18px;padding:23px}.edu-year{grid-column:1/-1}.edu-content h3{font-size:20px}.learning-strip{flex-direction:column;gap:15px}.contact-links a{grid-template-columns:75px 1fr 20px}.footer-inner{gap:15px;flex-wrap:wrap}.footer p{order:3;width:100%}}@media(max-width:390px){.hero h1{font-size:62px}.skills-grid{grid-template-columns:1fr}.skill-card{min-height:auto}.skill-card p:not(.skill-number){min-height:0}.about-facts{gap:17px}.profile-card{width:280px}}
+
+  </style>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">R</span><span>rizwan<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link nav-contact">Contact <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING & OPPORTUNITIES</div>
+          <p class="hero-intro">Hello, I'm</p>
+          <h1>Rizwan<br><span>Shaikh.</span></h1>
+          <h2>Computer Science Student <span class="divider-slash">/</span> Developer</h2>
+          <p class="hero-description">I build practical digital experiences and explore how software, cloud technology, and thoughtful engineering can solve real-world problems.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-ghost" href="#contact">Let's connect</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://linkedin.com/in/rizwan-shaikh-521b55330" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="card-top"><span>PROFILE / 2026</span><span class="card-live">● ONLINE</span></div>
+            <div class="avatar">RS<span class="avatar-corner">✳</span></div>
+            <div class="profile-name">Rizwan Shaikh</div>
+            <div class="profile-role">Aspiring Cloud & Software Engineer</div>
+            <div class="profile-line"></div>
+            <div class="profile-meta"><span>BASED IN</span><strong>Indore, India</strong></div>
+            <div class="profile-meta"><span>EDUCATION</span><strong>B.Tech · CSE</strong></div>
+            <div class="profile-meta"><span>FOCUS</span><strong>Software + Cloud</strong></div>
+            <div class="card-bottom"><span>CURIOUS BY NATURE.</span><span>01 — 06</span></div>
+          </div>
+          <div class="floating-chip chip-code"><span>⌘</span> Building with code</div>
+          <div class="floating-chip chip-cloud"><span>☁</span>Exploring Azure</div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">01 / ABOUT ME</p><h2>Curiosity drives.<br><span>Code creates.</span></h2></div>
+        <div class="about-grid">
+          <div class="about-lead reveal"><p class="large-copy">I'm a Computer Science Engineering student at <strong>Indore Institute of Science & Technology</strong>, interested in building useful software and understanding the systems behind it.</p></div>
+          <div class="about-detail reveal"><p>I enjoy learning by building: from web applications and database-backed platforms to security monitoring experiments. I am currently strengthening my software development fundamentals while exploring Microsoft Azure and cloud infrastructure.</p><p>My approach is simple: stay curious, understand the problem, build a practical solution, and keep improving it.</p><div class="about-facts"><div><strong>2028</strong><span>Expected graduation</span></div><div><strong>04+</strong><span>Projects & experiments</span></div><div><strong>∞</strong><span>Things to learn</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">02 / WHAT I WORK WITH</p><h2>Tools of the<br><span>trade.</span></h2></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-icon">⌘</div><p class="skill-number">01</p><h3>Programming</h3><p>Building logic, solving problems, and learning core programming concepts.</p><div class="tags"><span>C++</span><span>Python</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">◈</div><p class="skill-number">02</p><h3>Frontend</h3><p>Creating responsive interfaces and interactive web experiences.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>TypeScript</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">▤</div><p class="skill-number">03</p><h3>Database</h3><p>Working with structured data and backend-connected applications.</p><div class="tags"><span>SQL</span><span>Supabase</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">☁</div><p class="skill-number">04</p><h3>Cloud & Tools</h3><p>Exploring cloud infrastructure, development workflows, and Linux environments.</p><div class="tags"><span>Microsoft Azure</span><span>Git</span><span>GitHub</span><span>Linux</span><span>Docker</span></div></article>
+        </div>
+        <p class="skills-note">Skills represent technologies I have studied or used in projects; proficiency continues to grow through practice.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">03 / SELECTED WORK</p><h2>Ideas turned<br><span>into projects.</span></h2></div>
+        <div class="projects-list">
+          <article class="project-card reveal"><div class="project-index">01</div><div class="project-main"><div class="project-topline"><span>WEB APPLICATION</span><span class="project-status">● DEVELOPED</span></div><h3>IIST SAC</h3><p>A student activity platform designed to support college clubs, student registrations, role management, and activity coordination.</p><div class="tags"><span>React</span><span>Vite</span><span>Supabase</span></div></div><div class="project-arrow">↗</div></article>
+          <article class="project-card reveal"><div class="project-index">02</div><div class="project-main"><div class="project-topline"><span>CYBERSECURITY / MONITORING</span><span class="project-status in-progress">● EXPERIMENTAL</span></div><h3>OT Shield</h3><p>An industrial network security monitoring MVP combining security tools and a dashboard to explore threat visibility in operational technology environments.</p><div class="tags"><span>Wazuh</span><span>Suricata</span><span>Ubuntu</span><span>Django</span><span>Docker</span></div></div><div class="project-arrow">↗</div></article>
+          <article class="project-card reveal"><div class="project-index">03</div><div class="project-main"><div class="project-topline"><span>WEB DEVELOPMENT</span><span class="project-status in-progress">● LEARNING PROJECT</span></div><h3>Expense Tracker</h3><p>A personal finance application concept for recording expenses and understanding spending through a simple interface.</p><div class="tags"><span>Python</span><span>Django</span><span>SQL</span></div></div><div class="project-arrow">↗</div></article>
+          <article class="project-card reveal"><div class="project-index">04</div><div class="project-main"><div class="project-topline"><span>GAME DEVELOPMENT</span><span class="project-status in-progress">● IN DEVELOPMENT</span></div><h3>Horse Kingdoms</h3><p>A medieval fantasy horse-combat and territory-conquest game concept, focused on responsive mobile gameplay and multiplayer-style experiences.</p><div class="tags"><span>Unity</span><span>C#</span><span>Game Design</span></div></div><div class="project-arrow">↗</div></article>
+        </div>
+        <p class="projects-note">Some projects are ongoing or experimental. Project descriptions reflect their current development stage.</p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading reveal"><p class="section-kicker">04 / EDUCATION</p><h2>Learning is a<br><span>continuous process.</span></h2></div>
+        <div class="education-card reveal"><div class="edu-year">2024 — 2028 <span>EXPECTED</span></div><div class="edu-content"><h3>Bachelor of Technology</h3><p class="edu-field">Computer Science & Engineering</p><p>Indore Institute of Science & Technology, Indore, Madhya Pradesh</p></div><div class="edu-symbol">↗</div></div>
+        <div class="learning-strip reveal"><span class="strip-label">CURRENT LEARNING INTERESTS</span><div><span>Cloud Computing</span><span>Data Structures & Algorithms</span><span>Web Development</span><span>Linux & Networking</span></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-wrap">
+        <div class="section-heading reveal"><p class="section-kicker">05 / GET IN TOUCH</p><h2>Have an idea?<br><span>Let's talk.</span></h2></div>
+        <div class="contact-grid">
+          <div class="contact-copy reveal"><p>I'm open to connecting with fellow developers, learning from experienced professionals, and exploring suitable internship or project opportunities.</p><a class="email-link" href="mailto:rizwan66248@gmail.com">rizwan66248@gmail.com <span>↗</span></a><p class="email-hint">Also reachable at <a href="mailto:rizwan.shaikhcse2024@indoreinstitute.com">rizwan.shaikhcse2024@indoreinstitute.com</a>.</p></div>
+          <div class="contact-links reveal"><a href="https://linkedin.com/in/rizwan-shaikh-521b55330" target="_blank" rel="noreferrer"><span>LINKEDIN</span><strong>Let's connect</strong><b>↗</b></a><a href="https://github.com/" target="_blank" rel="noreferrer"><span>GITHUB</span><strong>Explore my code</strong><b>↗</b></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">R</span><span>rizwan<span class="brand-dot">.</span></span></a><p>Designed & built with HTML, CSS and JavaScript.</p><span>© <span id="year"></span> Rizwan Shaikh</span></div></footer>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script>
+// Mobile navigation
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+menuToggle.addEventListener("click", () => {
+  const isOpen = navLinks.classList.toggle("open");
+  menuToggle.setAttribute("aria-expanded", String(isOpen));
+});
+document.querySelectorAll(".nav-link").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuToggle.setAttribute("aria-expanded", "false");
+  });
+});
+
+// Header, back-to-top and active section navigation
+const header = document.querySelector(".site-header");
+const backTop = document.getElementById("backTop");
+const sections = document.querySelectorAll("main section[id]");
+const navItems = document.querySelectorAll(".nav-link");
+
+function updateOnScroll() {
+  const scrollY = window.scrollY;
+  header.classList.toggle("scrolled", scrollY > 20);
+  backTop.classList.toggle("visible", scrollY > 500);
+  let current = "home";
+  sections.forEach(section => {
+    if (scrollY >= section.offsetTop - 150) current = section.id;
+  });
+  navItems.forEach(item => {
+    item.classList.toggle("active", item.getAttribute("href") === `#${current}`);
+  });
+}
+window.addEventListener("scroll", updateOnScroll, { passive: true });
+updateOnScroll();
+backTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+// Reveal elements as they enter the viewport
+const revealObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll(".reveal").forEach(element => revealObserver.observe(element));
+
+// Automatically keep the footer year current
+document.getElementById("year").textContent = new Date().getFullYear();
+
+  </script>
+</body>
+</html>
